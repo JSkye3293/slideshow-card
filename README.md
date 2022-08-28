@@ -35,9 +35,9 @@ This allows you add images to a folder in your WWW folder that contains images y
 
 1. Add the folder sensor to your configuration.yaml file
     ```yaml
-    - sensor
-        - platform: folder
-          folder: /config/www/images
+    sensor:
+       - platform: folder
+         folder: /config/www/images
     ```
 2. Create a folder in your `WWW` folder named `images`
 3. Add your images to this folder
